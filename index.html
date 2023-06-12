@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio-23</title>
+    <script src="https://kit.fontawesome.com/486dc023e6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="images/lo2.png" class="logo">
+                <ul id="navbar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Work</a></li>
+                    <li><a href="#myprojects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="head-text">
+                <h1>Hi , I'm <span>Takhshish</span><br>From India.</h1>
+                <p>I'm a Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pic.png">
+            </div>
+            <div class="about-col-2">
+                <h2 class="Sndtitle">About Me</h2>
+                <p>Hi, I'm Takhshish Bano, a passionate and dedicated professional with a Bachelor's degree in 
+                    Electronics and Communication Engineering (B.Tech. ECE). Alongside my academic pursuits, 
+                    I have also honed my skills in web development, particularly in technologies such as HTML, CSS, JavaScript, React, PHP, and SQL. </p>
+
+                <div class="titleTab">
+                    <p class="links activelink" onclick="opentab('Skills')">Skills</p>
+                    <p class="links" onclick="opentab('Education')">Education</p>
+                    <p class="links" onclick="opentab('Experience')">Experience</p>
+                </div>
+                <div class="contentlinks active_tab" id="Skills">
+                    <ul>
+                        <li><span><b>Web Development</b></span><br>Web App Development</li>
+                        <!-- <li><span>Web Developer</span><br>Web App Deveelopment</li> -->
+                        <!-- <li><span><b>App Development</b></span><br>Building Android/iOS apps</li> -->
+                    </ul>
+                </div>
+                <div class="contentlinks" id="Education">
+                    <ul>
+                        <li><span><b>X</b></span><br>Sri Lal Convent Senior Secondary School (2017)</li>
+                        <li><span><b>XII</b></span><br>Govt. Girls Senior Secondary School (2019)</li>
+                        <li><span><b>B.Tech</b></span><br>Indira Gandhi Delhi Technical University For Women (2019-2023)</li>
+                    </ul>
+                </div>
+                <div class="contentlinks" id="Experience">
+                    <ul>
+                        <li><span><b>IGDTUW</b></span><br>Summer Intern (June-July 2022)</li>
+                        <!-- <li><span>Web Developer</span><br>Web App Deveelopment</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services---------- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="Sndtitle">My Services</h2>
+            <div class="mylist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>I have a strong foundation in web development, with expertise in both front-end and back-end technologies. 
+                        I am proficient in building interactive user interfaces using React, JavaScript, CSS, and HTML. Additionally, 
+                        I have experience working with PHP and SQL for server-side development, database management, and dynamic content generation. </p>
+                    <a href="a">learn more...</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h3>App Design</h3>
+                    <p>Until now, several 60 GHz transceivers
+                        have been realized using nano-scale CMOS
+                        process [5-12]. </p>
+                    <a href="a">learn more...</a>
+                </div> -->
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h3>UI/UX</h3>
+                    <p>I have a keen eye for design and a deep understanding of user psychology. I can create visually appealing and intuitive
+                         user interfaces that enhance user experience. I excel at leveraging design principles, color theory, and 
+                         typography to create captivating designs.</p>
+                    <a href="a">learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------projects------------- -->
+    <div id="myprojects">
+        <div class="container">
+            <h2 class="Sndtitle">My Work</h2>
+            <div class="worklist">
+                <div class="project">
+                    <img src="images/project1.png">
+                    <div class="descript">
+                        <h4>Stitching & Sewing</h4>
+                        <p>E-commerce for online shopping dress website with database of users and items.</p>
+                        <a href="https://github.com/01takhshish/StitchingandSewing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project8.png">
+                    <div class="descript">
+                        <h4>You-Tube_Clone</h4>
+                        <p>Dynamic Website using react and rapid_Api</p>
+                        <a href="https://01takhshish.github.io/You-Tube_Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project2.png">
+                    <div class="descript">
+                        <h4>Simon Game</h4>
+                        <p>Simon is an game of short-term memory skill. It creates a series of tones and lights and requires a user to repeat the sequence.</p>
+                        <a href="https://01takhshish.github.io/Simon-game/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project3.png">
+                    <div class="descript">
+                        <h4>Music Player</h4>
+                        <p>It's single song music player. Used different Icons to check music is on or not. </p>
+                        <a href="https://01takhshish.github.io/Single_music_player/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project4.png">
+                    <div class="descript">
+                        <h4>Instrument sound</h4>
+                        <p>Making different instrument sound using keyboard keys.</p>
+                        <a href="https://01takhshish.github.io/Instrument-sound/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="project">
+                    <img src="images/project5.png">
+                    <div class="descript">
+                        <h4>Temperature Convertor</h4>
+                        <p>Changing the temperature with different parameters.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+                <div class="project">
+                    <img src="images/project7.png">
+                    <div class="descript">
+                        <h4>Google Drive Clone</h4>
+                        <p>It's a Fronted End of Google Drive. It's a static website.</p>
+                        <a href=" https://01takhshish.github.io/Google-Drive-Clone-frontend-/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <!-- </div>
+            <a href="project.html" class="btn">See more</a>
+        </div> -->
+    </div>
+    <!-- ----------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="leftcolumn">
+                    <h1 class="Sndtitle">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>takhshish19@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>XXXXXX3530</p>
+                    <div class="socialprofile">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Takhshish bano.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="rightcolumn">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter the email" required>
+                        <textarea name="massage" rows="6" placeholder="Your massage"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                    <span  id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright-</i>This website is made by <i class="fa-solid fa-heart"></i> Takhshish Bano.</p>
+        </div>
+    </div>
+</body>
+<script>
+    var links = document.getElementsByClassName("links");
+    var contentlinks = document.getElementsByClassName("contentlinks");
+
+    function opentab(tabname) {
+        for (link of links) {
+            link.classList.remove("activelink");
+        }
+        for (contentlink of contentlinks) {
+            contentlink.classList.remove("active_tab");
+        }
+        event.currentTarget.classList.add("activelink")
+        document.getElementById(tabname).classList.add("active_tab");
+    }
+
+</script>
+<script>
+    var navbar = document.getElementById("navbar");
+    function openmenu() {
+        navbar.style.right = "0";
+    }
+    function closemenu() {
+        navbar.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwBDbuQDRzTNCcdO1JD5Ub70dKFcg4bfhRJnmkMI_XOgzEsxaUJMyNqtNQWuYLcoa9v/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</html>
+
+<!-- t https://01takhshish.github.io/You-Tube_Clone/ -->
